@@ -4,7 +4,7 @@ declare(strict_types=0);
 
 class Test
 {
-    function foo($int) : int
+    function foo($int): int
     {
         return 1;
     }

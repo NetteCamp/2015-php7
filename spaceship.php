@@ -2,7 +2,7 @@
 
 $items = [6, 4, 2, 0];
 
-usort($items, function (int $a, int $b) : int {
+usort($items, function (int $a, int $b): int {
     return $a <=> $b;
 });
 
